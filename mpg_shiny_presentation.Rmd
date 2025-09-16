@@ -1,0 +1,43 @@
+---
+title: "MPG Shiny App Pitch"
+author: "Sara AlYafei"
+date: "2025-09-16"
+output: 
+  ioslides_presentation:
+    widescreen: true
+---
+
+# Welcome to the MPG Shiny App
+
+A simple Shiny app to explore car fuel efficiency data (mpg dataset).  
+This presentation will show how the app works and its features.
+
+# Introduction
+
+- The app allows users to select variables from the `mpg` dataset.  
+- Users can filter by manufacturer, class, or engine size.  
+- Outputs include reactive plots and summary statistics.
+
+# User Inputs
+
+- Dropdowns, sliders, and checkboxes for filtering data  
+- Example: select `manufacturer` and `year`  
+- Example: slider for `displ` (engine displacement)
+
+# Reactive Outputs
+
+- Plot: fuel efficiency (mpg) vs engine size  
+- Table: filtered summary of selected cars  
+- Outputs update automatically when inputs change
+
+# Conclusion
+
+- Simple interactive exploration of mpg dataset  
+- Built in Shiny with reactive elements  
+- Demo link: [https://saraalyafei.shinyapps.io/mpg_shiny_app/](https://saraalyafei.shinyapps.io/mpg_shiny_app/)  
+
+Thank you!
+
+
+
+ 
